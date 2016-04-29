@@ -1,0 +1,40 @@
+# Copyright (C) 2016 Android KeyLayouts by AryToNeX
+
+# =================================
+#          XBox pad v2 (US)
+# The second XBox First Gen gamepad
+# =================================
+
+# Keys
+key 304   BUTTON_A
+key 305   BUTTON_B
+key 306   BUTTON_C
+key 307   BUTTON_X
+key 308   BUTTON_Y
+key 309   BUTTON_Z
+
+key 310   BUTTON_L1
+key 311   BUTTON_R1
+
+key 314   BUTTON_SELECT
+key 315   BUTTON_START
+
+# There are not these buttons but I still prefer mapping everything
+key 317   BUTTON_THUMBL
+key 318   BUTTON_THUMBR
+
+# Left stick
+axis 0x00 X flat 4096
+axis 0x01 Y flat 4096
+
+# Right stick
+axis 0x03 Z flat 4096
+axis 0x04 RZ flat 4096
+
+# Triggers
+axis 0x02 LTRIGGER
+axis 0x05 RTRIGGER
+
+# Hat
+axis 0x10 HAT_X
+axis 0x11 HAT_Y
