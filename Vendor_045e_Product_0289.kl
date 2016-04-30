@@ -19,7 +19,6 @@ key 311   BUTTON_R1
 key 314   BUTTON_SELECT
 key 315   BUTTON_START
 
-# There are not these buttons but I still prefer mapping everything
 key 317   BUTTON_THUMBL
 key 318   BUTTON_THUMBR
 

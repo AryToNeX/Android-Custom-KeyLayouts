@@ -13,24 +13,25 @@ key 308   BUTTON_Y
 key 310   BUTTON_L1
 key 311   BUTTON_R1
 
-key 314   BACK
-key 315   BUTTON_START
-
-#key 315   MENU
-#        if you want the "right" button but I don't recommend it.
+key 312   BUTTON_L2
+key 313   BUTTON_R2
 
 key 172   HOME
+key 314   BACK
+key 315   BUTTON_START
+#key 315   MENU
+#        if you want the "right" button but I don't recommend it.
 
 key 317   BUTTON_THUMBL
 key 318   BUTTON_THUMBR
 
 # Left stick
-axis 0x00 X flat 128
-axis 0x01 Y flat 128
+axis 0x00 X
+axis 0x01 Y
 
 # Right stick
-axis 0x02 Z flat 128
-axis 0x05 RZ flat 128
+axis 0x02 Z
+axis 0x05 RZ
 
 # Triggers
 axis 0x0a LTRIGGER
